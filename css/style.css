@@ -72,8 +72,9 @@ img {
     background-color: #d0d3d4;
     height: 81px;
     width: 100%;
-    position: absolute;
-    bottom: -220px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px; 
 }
 .logo {
     width: 50px;
