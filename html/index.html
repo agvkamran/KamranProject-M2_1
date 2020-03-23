@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Calculate</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img src="../images/citibank.png" alt="logo-citibank">
+    </div>
+    <div class="main">
+        <div class="blocks">
+            <p>Начальная сумма вклада (₽)</p>
+            <input type="number" id="start">
+        </div>
+        <div class="blocks">
+            <p>Сумма ежемесячного пополнения (₽)</p>
+            <input type="text" id="everyMonth">
+        </div>
+        <div class="blocks">
+            <p>Процентная ставка (%)</p>
+            <input type="number" id="percent"> 
+        </div>
+        <div class="blocks">
+            <p>Срок вклада (дней)</p>
+            <input type="number" id="date">
+        </div>
+        <div class="calculate">
+            <button type="button" id="button">Рассчитать</button>
+            <div id="alert">Ошибка входных параметров</div>
+        </div>
+    </div>    
+    <div class="footer">
+        <div>
+            <p class="inline">Address: 388-390 Greenwich St. New York, NY 10013 U.S.</br> Contact center: 00 1 210-677-0065</p>
+        </div>
+        <div class="logos">
+            <a href="https://www.facebook.com/citibank/">
+                <img src="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19754.png" alt="facebook-logo" class="logo"></a>
+            <a href="https://twitter.com/citibank">
+                <img src="http://pngimg.com/uploads/twitter/twitter_PNG28.png" alt="twitter-logo" class="logo"></a>
+            <a href="https://vk.com/citibankrussia">
+                <img src="http://pngimg.com/uploads/vkontakte/vkontakte_PNG16.png" alt="vk-logo" class="logo"></a>
+        </div>
+    </div>
+    <script src="../javascript/index.js"></script>
+</body>
+</html>

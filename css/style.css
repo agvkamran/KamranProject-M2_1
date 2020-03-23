@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    margin: 0 auto;
+    background-image: url(https://images.boersenmedien.com/images/2cd47c64-1212-4297-9dd0-9f6e6ddd015d.jpg);
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+}
+
+.main{
+    width: 675px;
+    margin: 100px 125px;
+    background-color: rgba(208, 211, 212, 0.7);
+    padding: 5px;
+    clear: both;
+    border-radius: 15px 15px 5px 5px;
+    height: 270px;  
+}
+p{
+    display: inline-block;
+    padding-top: 10px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 10px;
+}
+input{
+    float: right;
+    margin-top: 11px;
+    border-radius: 8px;
+    margin-right: 10px;
+    height: 30px;
+    background-color: rgba(215, 215, 215, 0.7);
+}
+input:hover{
+    background-color: #ffffff;
+}
+button {
+    width: 100%;
+    background-color: #1467e3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #1837d6;
+}
+#alert {
+    display: none;
+    margin-top: 10px;
+    background-color: #fe346e;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+img {
+    float: right;
+    height: 100px;
+    margin: 15px;
+}
+.header {
+    height: 130px;
+    width: 100%;
+    background-color: rgba(215, 215, 215, 0.7);
+}
+.footer {
+    background-color: #d0d3d4;
+    height: 81px;
+    width: 100%;
+    position: absolute;
+    bottom: -220px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+.inline{
+    display: inline;
+    float: left;
+    font-style: italic;
+}
